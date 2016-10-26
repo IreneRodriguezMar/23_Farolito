@@ -1,0 +1,105 @@
+	/*Inicio*/
+header{/*imagen que va de fondo en el header y nav*/
+	background: url("../img/img-home.png");
+	width: 100%;
+	height: 700px;
+	background-size:100% 100%;
+}
+nav ul{/*es para el estilo y posicion de nav*/
+	list-style-type: none;
+	float: right;
+}
+nav ul li{/*es para que queden en linea horizontal color
+	y posicionamiento*/
+	display: inline-block;
+	color: #989898;
+	margin-top: 5%;
+	margin-bottom: 30%
+}
+.botgri{
+	color: white;
+	background-color: #939899;
+}
+.logo{/*logo farolito*/
+	float: right; 
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+.pazul{/*para el texto en azul*/
+	margin-left: 50%;
+	font-size: 2em;
+	line-height: 1.5;
+	margin-right: -3%;
+}
+.pgris{/*para el texto en gris debajo de azul*/
+	margin-left: 50%;
+	line-height: 1.5;
+	font-size: 1em;
+	line-height: 1.5;
+	margin-right: -3%;
+}
+.botna{/*boton debajo de texto color naranja*/
+	color: white;
+	font-size: 1em;
+	background-color: #ff6a49;
+	width: 20%;
+	height: 60px;
+	float: right;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 13%;
+}
+/*Inicio de metodologia*/
+.metodologia{/*texto entre comillas*/
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+.borde{ /*borde naranja*/
+	border-radius: 50%;
+	border:5px #ff6a49 dashed;
+	width: 350px;
+	height: 350px;
+	display: block;
+	margin: auto;
+	margin-top: 7%;
+	padding-top: 15%;
+	line-height: 1.5;
+}
+.imgmetod{/*imagen de metodo*/
+	width: 70%;
+	height: 70px;
+}
+.textiz{/*texto izquierda de circulo*/
+	margin-top: 15%;
+}
+.textder{/*texto derecha de circulo*/
+	margin-top: 15%;
+}
+.textbajo{/*texto abajo de circulo*/
+	margin-top: 5%;
+}
+.botazu{/*boton azul debajo de texto de circulo*/
+	background-color: #28c5e6;
+	color: white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 15%;
+	height: 10px;
+	font-size: 1em;
+}
+/*postulantes*/
+.postulantes{/*color  de fondo*/
+	background-color: #28c5e6;
+	width: 100%;
+	height: 700px;
+	background-size: 100% 100%;
+}
+.num{/*imagen al lado de uno*/
+	width: 100px;
+	height: 100px;
+}
+.rabla{/*linea punteada*/
+	border-bottom: dashed 2px white;
+	margin-top: 8%;
+	padding-bottom: 5%;
+}
